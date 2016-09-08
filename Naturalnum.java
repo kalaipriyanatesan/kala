@@ -6,9 +6,9 @@ public class Naturalnum {
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
 		int r = 0;
-		for (int i = 1; i <= n; i++) {
-			r = n * (n - 1) / 2;
-		}
+	
+			r = n * (n + 1) / 2;
+	
 		System.out.println(r);
 	}
 
